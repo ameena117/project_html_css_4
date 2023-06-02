@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(190, 154, 154);
+}
+#header {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 15%;
+}
+#body{
+    color: #fff;
+    font-weight: bold;
+    padding: 5%;
+}
+#form{
+    background-color: #f6f6f6;
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+#login{
+    background-color: rgb(255, 208, 212);
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: -12%;
+    left: 5%;
+}
+input[type="text"], input[type="password"]{
+    padding: 10px;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.label{
+    color: rgb(206, 4, 4);
+}
+#remember{
+    color: #fff;
+    padding: 30px;
+    margin: 10px;
+}
+.footer{
+    text-align: center;
+}
+.sub{
+    height: 40px;
+    width: 100px;
+    color: rgb(255, 172, 179);
+    border: 3px solid (253, 173, 173);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 15%;
+}
+.sub :hover{
+    background-color: rgb(255, 172, 179);
+    color: rgb(255, 255, 255);
+    border: 3px solid #fff;
+}
+#reg{
+    padding-top: 20px;
+    padding-left: 40%;
+    text-align: center;
+    position: static;
+    width: 60%;
+    height: 400px;
+    margin: auto;
+}
+#cbody{
+    text-transform: capitalize;
+    color: rgb(87, 77, 82);
+    font-weight: bold;
+    margin-top: 20px;
+}
+#cbody span{
+    color: rgb(255, 172, 179);
+}
+#flower{
+    padding: 10px;
+    height: 110px;
+    width: 130px;
+    position: absolute;
+    right: 20%;
+    top: 35%;
+}
+#conh h1{
+    color: rgb(54, 38, 47);
+    text-transform: uppercase;
+} 
+#conh h1:first-child{
+    color: rgb(255, 172, 179);
+}
+#conh h1 span{
+    color: rgb(54, 38, 47);
+}
+.sub2{
+    height: 40px;
+    width: 100px;
+    color: rgb(255, 172, 179);
+    border: 3px solid (253, 173, 173);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 5%;
+}
+#end{
+    padding: 10px;
+    margin-top: 135px;
+}
